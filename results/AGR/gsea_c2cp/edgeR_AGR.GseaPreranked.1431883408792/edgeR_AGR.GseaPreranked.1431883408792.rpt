@@ -1,0 +1,22 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1431883408792
+param	collapse	false
+param	plot_top_x	0
+param	rnk	/home/zjia/data/Jobbing/geneRanking3/src/../results/AGR/edgeR_AGR.rnk
+param	norm	meandiv
+param	scoring_scheme	classic
+param	make_sets	false
+param	mode	Max_probe
+param	gmx	../data/c2.cp.v4.0.symbols.gmt
+param	gui	false
+param	rpt_label	edgeR_AGR
+param	help	false
+param	out	/home/zjia/data/Jobbing/geneRanking3/src/../results/AGR/gsea_c2cp
+param	include_only_symbols	true
+param	set_min	15
+param	nperm	1000
+param	rnd_seed	149
+param	zip_report	false
+param	set_max	500
+
+file	../results/AGR/gsea_c2cp/edgeR_AGR.GseaPreranked.1431883408792/index.html

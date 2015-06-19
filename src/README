@@ -1,0 +1,38 @@
+#! /bin/bash
+
+
+#geneRanking.R internal function
+
+
+################################################################################
+#Obtain data
+./seqc_data.R
+
+#Different expression analysis (PossionSeq, DESeq, edgeR, DNMF) and gene ranking
+./runRanking.R
+
+#GFOLD analysis and gene ranking
+./GFOLD_all.sh
+
+#V=WH
+./Figure_V_WH_AGR.R
+
+#MA plot
+./MAplot_comparsion.R
+
+#ROC ccomparsion with ERCC and taqman respectively
+./AUC_comparsion_ERCC.R
+./AUC_comparsion_taqman.R
+
+
+#mkdirs.sh
+./GSEA_all.sh gseafilelist.txt
+
+#Obtain top gene sets
+./Topgenesets.sh gseafilelist.txt 10 > ../results/topgenesets.txt
+
+#Analyse the top gene sets
+./Topgenesets_analysis.R
+
+#veen and output the overlapped gene sets.
+./venn_top10.R

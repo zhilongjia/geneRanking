@@ -1,0 +1,3 @@
+#! /bin/bash
+#make file for GFOLD:
+awk 'BEGIN{FS=OFS="\t"}{for (i=2; i<=9; i++) {print $1, $1, $i, $10, 0 > "AGR" i-1 ".rc"}}' AGR_readcount.txt

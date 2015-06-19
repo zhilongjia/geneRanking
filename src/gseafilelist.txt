@@ -1,0 +1,12 @@
+../results/AGR/gsea_c2cp
+../results/AGR/gsea_c2kegg
+../results/AGR/gsea_c5bp
+../results/BGI/gsea_c2cp
+../results/BGI/gsea_c2kegg
+../results/BGI/gsea_c5bp
+../results/NWU/gsea_c2cp
+../results/NWU/gsea_c2kegg
+../results/NWU/gsea_c5bp
+../results/PSU/gsea_c2cp
+../results/PSU/gsea_c2kegg
+../results/PSU/gsea_c5bp
