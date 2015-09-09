@@ -1,6 +1,6 @@
 # geneRanking
 
-This is all the data and code to get the results of a paper, [Gene Ranking of RNA-Seq Data via Discriminant Non-Negative Matrix Factorization](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137782).
+This is all the data and code to get the results in my paper, [Gene Ranking of RNA-Seq Data via Discriminant Non-Negative Matrix Factorization](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137782).
 
 See src directory for the code in detail.
 
